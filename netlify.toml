@@ -1,0 +1,16 @@
+[build]
+command="npm run build"
+publish="/build"
+base="/"
+
+[[redirects]]
+  from = "/"
+  to = "/register"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/register"
+  to = "/resume"
+  status = 302
+  force = true
