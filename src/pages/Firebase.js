@@ -4,7 +4,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBEjaurUueq-8aIUU9mJ5ywF8gpCV0zaBc",
+  apiKey: "API_KEY",
   authDomain: "resume-d5d97.firebaseapp.com",
   projectId: "resume-d5d97",
   storageBucket: "resume-d5d97.appspot.com",
